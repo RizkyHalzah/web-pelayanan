@@ -166,7 +166,7 @@ export default function GalleryLightBox({
                         </button>
                     </motion.div>
 
-                    {/* Arrow Nav — outside panel for large screens */}
+                    {/* Arrow Nav ï¿½ outside panel for large screens */}
                     <button
                         id="lightbox-arrow-prev"
                         onClick={(e) => {
