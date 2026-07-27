@@ -3,6 +3,12 @@
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
+test('returns a successful response', function () {
+    $response = $this->get('/');
+
+    $response->assertStatus(200);
+});
+
 Route::get('/', function () {
     return Inertia::render('Home');
 });
